@@ -1,0 +1,53 @@
+.content {
+  position: absolute;
+  top: 45px;
+  bottom: 50px;
+  display: flex;
+  text-align: center;
+  padding-top: 2rem;
+}
+.content .user {
+  height: 1.5rem;
+  width: 13rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+.content .pwd {
+  padding-left: 1rem;
+  height: 1.5rem;
+  width: 13rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.content input {
+  margin-bottom: 2rem;
+}
+.content .select {
+  background: #E4366B;
+  vertical-align: text-top;
+}
+.content .btn {
+  height: 2rem;
+  width: 13rem;
+  background-color: #E4366B;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+.content label {
+  font-size: 0.6rem;
+}
+.content a {
+  font-size: 0.6rem;
+  color: #000;
+}
+
+.check {
+  color: red;
+}

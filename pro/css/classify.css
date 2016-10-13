@@ -1,0 +1,185 @@
+.cHead {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 45px;
+  height: 30px;
+}
+.cHead .swiper-slide {
+  justify-content: space-around;
+  align-items: center;
+  background-color: #CCCCCC;
+}
+.cHead .swiper-slide .active {
+  color: white !important;
+}
+
+.ct {
+  position: absolute;
+  top: 45px;
+  bottom: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  left: 0;
+  overflow-y: auto;
+}
+.ct .pageCout {
+  width: 100%;
+  height: 100%;
+}
+.ct .swiper-slide {
+  background: #888888;
+  overflow-y: scroll;
+}
+.ct .cMain {
+  display: flex;
+  height: inherit;
+  width: 100%;
+  flex-flow: row wrap;
+  margin-top: 30px;
+}
+.ct .cMain li {
+  display: inline-flex;
+  flex-flow: column nowrap;
+  width: 43%;
+  height: 33%;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border: 0.5px solid #ccc;
+  box-sizing: border-box;
+}
+.ct .cMain li img {
+  margin: 0 auto;
+  margin-top: 0.8rem;
+  height: 64%;
+  width: 85%;
+  display: block;
+  border: 0.5px solid #ccc;
+  box-sizing: border-box;
+}
+.ct .cMain li div {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.ct .cMain li div span {
+  color: red;
+  font-size: 1.2rem;
+  flex: 7;
+}
+.ct .cMain li div del {
+  color: #ccc;
+  flex: 1;
+  font-size: 0.8rem;
+  flex: 2;
+}
+.ct .cMain li p {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  line-height: 2;
+  text-align: center;
+}
+.ct ul {
+  list-style: none;
+  justify-content: space-around;
+}
+.ct .pagination {
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  line-height: 30px;
+  background-color: #CCCCCC;
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+.ct .pagination .iconfont {
+  display: inline-flex;
+  flex: 1;
+  text-align: center;
+}
+.ct .swiper-pagination-bullet-active {
+  color: white;
+}
+
+.hp {
+  position: fixed;
+  top: 45px;
+  height: 40px;
+  width: 100%;
+  background: #000;
+  text-align: center;
+  padding-top: 10px;
+  z-index: 10;
+}
+.hp .search {
+  margin: 0 auto;
+  height: 30px;
+  width: 80%;
+  border-radius: 15px;
+  background: #fff;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+.hp .search span {
+  width: 10%;
+  font-size: 1rem;
+  line-height: 30px;
+}
+.hp .search input {
+  width: 80%;
+  height: 20px;
+  border: none;
+  color: #949398;
+  font-size: 0.6rem;
+}
+
+.ctList {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  overflow-y: auto;
+}
+.ctList li {
+  line-height: 2.8rem;
+  display: inline-flex;
+  height: 2.8rem;
+  width: 100%;
+  align-content: center;
+  justify-content: space-around;
+  border-bottom: 0.5px solid #CCCCCC;
+}
+.ctList li em {
+  flex: 8;
+  font-style: normal;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+.ctList li span {
+  flex: 1;
+  font-size: 1.2rem;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: auto;
+  display: inline-bloc;
+  border-radius: 0;
+  background: #CCCCCC;
+  opacity: 1;
+}

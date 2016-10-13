@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- SEO  -->
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<!-- 苹果专用 -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+		<meta name="format-detection" content="telephone=no" />
+		<!-- 简单移动端适配 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<!-- 图标 -->
+		<link rel="shortcut icon" href="">
+		<title>商品详情</title>
+		<link rel="stylesheet" href="icon/iconfont.css" />
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+		<link rel="stylesheet" href="css/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" href="css/details.css" />
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/public.css" />
+	</head>
+	<body>
+		<header class="head">
+			<span class="iconfont">&#xe619;</span>
+			商品介绍
+			<button>分享</button>
+		</header>
+		
+		<div class="swiper-container detailContainer">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide detail">
+					<div class="time">111</div>
+					<div class="detailContent">
+						<img src="img/29.jpg" />
+						<div class="detailPrice">
+							<span>￥259</span>
+							<span>灰色印花短袖T恤</span>
+						</div>
+						<div class="totalPrice">
+							<span>市场价：<del>￥480</del></span>
+							<span>4.8折</span>
+							<span>158人购买</span>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="swiper-slide detailIntroduce">
+					<img src="img/29.jpg" class="bigPhoto"/>
+					<p></p>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="swiper-container swiperPhoto">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="" />
+							</div>
+							<div class="swiper-slide">
+								<img src="" />
+							</div>
+							<div class="swiper-slide">
+								<img src="" />
+							</div>
+							<div class="swiper-slide">
+								<img src="" />
+							</div>
+						</div>
+						<div class="swiper-pagination photoPagination"></div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		
+		<footer class="footer">
+			<span class="active">介绍</span>
+			<span>详情</span>
+			<span>实拍</span>
+		</footer>
+		<script type="text/html" id="details">
+			<div class="time">{{}}</div>
+			<div class="detailContent">
+				<img src="{{img1}}" />
+				<div class="detailPrice">
+					<span>{{price}}</span>
+					<span>{{product}}</span>
+				</div>
+				<div class="totalPrice">
+					<span>市场价：<del>{{proPrice}}</del></span>
+					<span>{{sale}}</span>
+					<span>{{people}}人购买</span>
+				</div>
+			</div>
+		</script>
+		<script src="js/jquery-1.11.0.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/swiper-3.3.1.jquery.min.js" ></script>
+		<script src="js/app.js"></script>
+		<script src="js/details.js"></script>
+	</body>
+</html>

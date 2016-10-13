@@ -1,0 +1,130 @@
+.content {
+  width: 100%;
+  position: absolute;
+  top: 85px;
+  bottom: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+}
+.content .empty {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  display: none;
+}
+.content h2 {
+  font-size: 1rem;
+}
+.content img {
+  height: 8rem;
+  width: 8rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.content button {
+  height: 2rem;
+  width: 10rem;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #E4366B;
+  border-radius: 7px;
+  border: none;
+  margin: 0 auto;
+}
+.content .shopping {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+.content .shopping table tr {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 5rem;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.content .shopping table tr td:nth-child(1) {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content .shopping table tr td:nth-child(1) img {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  margin: 0;
+}
+.content .shopping table tr td:nth-child(2) {
+  width: 50%;
+  font-size: 0.8rem;
+  display: inline-flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.content .shopping table tr td:nth-child(2) p {
+  text-align: left;
+  line-height: 1.5;
+  margin: 0;
+  width: 100%;
+}
+.content .shopping table tr td:nth-child(2) button {
+  height: 1rem;
+  width: 1.2rem;
+  background: #222222;
+  color: white;
+  text-align: center;
+  line-height: 1.2rem;
+  vertical-align: middle;
+  text-align: center;
+}
+.content .shopping table tr td:nth-child(2) input {
+  height: 1rem;
+  width: 1.2rem;
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+.content .shopping table tr td:nth-child(3) {
+  width: 10%;
+  display: inline-flex;
+}
+.content .shopping table tr td:nth-child(3) button {
+  height: 1.5rem;
+  width: 5rem;
+  background: #222222;
+  font-size: 0.6rem;
+}
+
+.total {
+  position: fixed;
+  top: 45px;
+  height: 40px;
+  width: 100%;
+  background: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.total div:nth-child(1) {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+.total div:nth-child(2) {
+  display: flex;
+  flex: 2.5;
+  justify-content: space-around;
+  align-items: center;
+}

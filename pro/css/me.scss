@@ -1,0 +1,62 @@
+.content{
+    position: absolute;
+    top: 45px;
+    bottom: 50px;
+    display: flex;
+    .top{
+        display: inline-flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        flex: 1;
+         img{
+            height: 100px;
+            width: 100px;
+            display: block; 
+            margin-left: 20px;  
+            margin-right: 20px;        
+        } 
+        div{
+            flex: 1;
+            p{
+                font-size: 0.8rem;
+                font-weight: bold;
+                line-height: 2;
+            }
+            button{
+                border: none;
+                background: #FF1493;
+                color: white;
+                border-radius: 5px;
+                height: 1.5rem;
+                width: 2.5rem;
+                margin-right: 20px;
+            }
+        }     
+    }
+    .bottom{
+        padding: 1rem;
+        flex: 1.5;
+        ul{
+            border:1px solid #ccc;
+            border-radius: 10px;
+            li{
+                border-bottom:1px solid #ccc;
+                height: 2.5rem; 
+                line-height: 2.2rem; 
+                font-weight: bold;
+                padding-left: 0.8rem; 
+                span{
+                    float: right;
+                    margin-right: 20px;
+                    color: #CCCCCC;
+                }  
+            }
+            .last{
+                border-bottom: none;
+            }
+        }
+        
+    }
+    
+}

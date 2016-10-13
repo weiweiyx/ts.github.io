@@ -1,0 +1,93 @@
+body, ul, li, div, html, span, i, del {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  position: fixed;
+  top: 0;
+  height: 45px;
+  width: 100%;
+  color: white;
+  background: #e4366b;
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.2rem;
+  text-align: center;
+  z-index: 10;
+}
+.head span {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 10px;
+}
+.head button {
+  background: #E4366B;
+  height: 1.5rem;
+  width: 3rem;
+  color: white;
+  position: absolute;
+  right: 1rem;
+  border: none;
+  text-align: center;
+  line-height: 1.5rem;
+  top: 0.2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 1px #FFf,0 0 1px #FFf,0 5px 13px #FF1493;
+  font-size: 0.8rem;
+}
+
+footer {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+footer .item {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+footer .item .iconfont {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+footer .item span {
+  font-size: 0.6rem;
+}
+footer .item .cartNum {
+  position: absolute;
+  top: 0;
+  height: 0.6rem;
+  width: 0.6rem;
+  color: white;
+  background: red;
+  border-radius: 50%;
+  margin-left: .8rem;
+  text-align: center;
+  display: none;
+}
+footer .i {
+  height: 4px;
+  background-color: #E4366B;
+  top: 0;
+  width: inherit;
+  display: block;
+  position: absolute;
+}
+footer .activeAll:before {
+  content: '';
+  height: 4px;
+  position: absolute;
+  background: #E4366B;
+  top: 0;
+  width: 20%;
+}

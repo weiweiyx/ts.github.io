@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- SEO  -->
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<!-- 苹果专用 -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+		<meta name="format-detection" content="telephone=no" />
+		<!-- 简单移动端适配 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<!-- 图标 -->
+		<link rel="shortcut icon" href="">
+		<link rel="stylesheet" href="icon/iconfont.css" />
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+		<title>模板</title>
+		<link rel="stylesheet" href="css/public.css" />	
+		<link rel="stylesheet" href="css/cart.css" />
+	</head>
+	<body>
+		<header class="head">
+			<span class="iconfont">&#xe619;</span>
+			购物车
+			<button>去结算</button>
+		</header>
+		<header class="total">
+			<div>
+				<span>商品数量:</span>
+				<span class="number">1</span>
+			</div>
+			<div>
+				<span>应付总额(不含运费):</span>
+				<span class="totalAccount"></span>
+			</div>			
+		</header>
+		<div class="content">
+			<div class="empty">
+				<h2>您的购物车空空~</h2>
+				<img src="img/wifi.jpg"/>
+				<button class="shopBtn">去逛逛</button>
+			</div>
+			<div class="shopping">
+				<table></table>
+			</div>
+		</div>
+		<footer></footer>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+	<script type="text/javascript" src="js/app.js" ></script>
+	<script type="text/javascript" src="js/cart.js" ></script>
+	<script src="js/public.js"></script>
+	<script type="text/html" id="addCart">
+		<tr id="{{goodsID}}" class="goodsInfo">
+			<td><img src="{{goodsImg}}"></td>
+			<td>
+				<p><span>{{goodsname}}</span></p>
+				<p>单价:<span class="price">{{price}}</span></p>
+				<p>数量:<button class="sub">-</button><input type="text" value="{{goodsNum}}" class="quantity"><button class="add">+</button></p>
+			</td>
+			<td>
+				<span class="iconfont"></span>
+				<button class="delete">删除</button>
+			</td>
+		</tr>
+	</script>
+</html>

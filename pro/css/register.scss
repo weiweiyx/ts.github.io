@@ -1,0 +1,37 @@
+.content{
+    position: absolute;
+    top: 45px;
+    bottom: 50px;
+    display: flex;
+    text-align: center;
+    padding-top: 2rem;
+    input{
+        padding-left: 1rem;
+        height: 1.5rem;
+        width: 13rem;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;     
+    }
+    .confirm{
+        margin-bottom: 3rem;
+    }
+    .btn{
+        background: #E4366B;
+        color: white;
+        height: 2rem;
+        width: 14rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .check{
+        display: block;
+        font-size: 1rem;
+       text-align: center;
+        padding: 1rem;
+        color: red;
+        width: 80%;
+    }
+}
+

@@ -1,0 +1,163 @@
+html,
+body,
+div,
+ul,
+li,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.head {
+  position: fixed;
+  top: 0;
+  height: 45px;
+  width: 100%;
+  color: white;
+  background: #e4366b;
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.2rem;
+}
+
+.hp {
+  position: fixed;
+  top: 45px;
+  height: 40px;
+  width: 100%;
+  background: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.hp .search {
+  margin: 0 auto;
+  height: 30px;
+  width: 80%;
+  border-radius: 15px;
+  background: #fff;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+.hp .search span {
+  width: 10%;
+  font-size: 1rem;
+  line-height: 30px;
+}
+.hp .search input {
+  width: 80%;
+  height: 20px;
+  border: none;
+  color: #949398;
+  font-size: 0.6rem;
+  outline: medium;
+}
+
+.content {
+  position: absolute;
+  top: 95px;
+  width: 100%;
+  bottom: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.content .lunbo {
+  height: 9rem;
+  width: 100%;
+}
+.content .lunbo img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.content .product {
+  width: 100%;
+  display: inline-flex;
+  height: auto;
+}
+.content .product .item {
+  height: 4.5rem !important;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+}
+.content .product .item img {
+  display: block;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+.content .product .item .info {
+  margin-right: 0.8rem;
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+}
+.content .product .item .info p {
+  display: block;
+  text-align: left;
+  font-size: 0.8rem;
+  height: 40px;
+}
+.content .product .item .info div {
+  text-align: left;
+}
+.content .product .item .info span {
+  color: #FF1493;
+  font-size: 1rem;
+}
+.content .product .item .info i {
+  font-style: normal;
+  font-size: 0.4rem;
+}
+.content .product .item .info del {
+  font-size: 0.6rem;
+  color: #ccc;
+}
+.content .product .item .info button {
+  position: absolute;
+  right: 1.2rem;
+  height: 20px;
+  width: 45px;
+  background: #FF1493;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,60 @@
+.content {
+  position: absolute;
+  top: 45px;
+  bottom: 50px;
+  display: flex;
+}
+.content .top {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+.content .top img {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.content .top div {
+  flex: 1;
+}
+.content .top div p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 2;
+}
+.content .top div button {
+  border: none;
+  background: #FF1493;
+  color: white;
+  border-radius: 5px;
+  height: 1.5rem;
+  width: 2.5rem;
+  margin-right: 20px;
+}
+.content .bottom {
+  padding: 1rem;
+  flex: 1.5;
+}
+.content .bottom ul {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.content .bottom ul li {
+  border-bottom: 1px solid #ccc;
+  height: 2.5rem;
+  line-height: 2.2rem;
+  font-weight: bold;
+  padding-left: 0.8rem;
+}
+.content .bottom ul li span {
+  float: right;
+  margin-right: 20px;
+  color: #CCCCCC;
+}
+.content .bottom ul .last {
+  border-bottom: none;
+}
